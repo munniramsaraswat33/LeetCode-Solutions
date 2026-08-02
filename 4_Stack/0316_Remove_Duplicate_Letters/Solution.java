@@ -1,18 +1,3 @@
-/*
-LeetCode 316 - Remove Duplicate Letters
-
-Difficulty: Medium
-
-Approach:
-- Monotonic Stack
-- Last Occurrence Array
-- Visited Array
-
-Time Complexity: O(n)
-
-Space Complexity: O(1)
-*/
-
 class Solution {
     public String removeDuplicateLetters(String s) {
         StringBuilder sb = new StringBuilder();
