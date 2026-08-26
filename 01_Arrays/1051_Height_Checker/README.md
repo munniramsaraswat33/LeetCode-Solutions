@@ -15,7 +15,7 @@ The value:
 heights[i]
 ```
 
-represents the height of the student at position `i`.
+It represents the height of the student at position `i`.
 
 The students are currently standing in a certain order.
 
