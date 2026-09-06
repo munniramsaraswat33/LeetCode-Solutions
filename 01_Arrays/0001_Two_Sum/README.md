@@ -270,10 +270,8 @@ class Solution {
 
             int complement = target - nums[i];
 
-            Integer index = map.get(complement);
-
-            if (index != null) {
-                return new int[]{index, i};
+            if (map.containsKey(complement) {
+                return new int[]{hm.get(complement), i};
             }
 
             map.put(nums[i], i);
